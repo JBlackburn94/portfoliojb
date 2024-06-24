@@ -33,7 +33,7 @@ export default function Hero() {
           <p className="ml-[20px] font-bold text-[16px]">GSAP</p>
         </div>
         <p className="text-[16px] mt-[16px]">
-          A Full Stack Developer, specialising in crafting responsive,
+          A Full Stack Developer, specialised in crafting responsive,
           user-friendly and accessible interfaces for the web
         </p>
       </div>
