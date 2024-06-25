@@ -6,7 +6,12 @@ export default function TechContainerContent({
   return (
     <div className="flex flex-wrap">
       {tech.map((item) => (
-        <p key={item.id}>{item.name}</p>
+        <p
+          className="bg-mainPink mr-1 text-[16px] mt-2 p-1 font-bold"
+          key={item.id}
+        >
+          {item.name}
+        </p>
       ))}
     </div>
   );
