@@ -48,21 +48,22 @@ export default function Hero() {
   return (
     <section className="flex flex-col md:flex-row-reverse justify-center md:justify-between items-center px-[41px] py-[100px] lg:px-[185px]">
       <div
-        className="flex flex-col items-center justify-center relative md:ml-[100px] lg:ml-[166px] mt-[100px] opacity-0"
+        className="flex flex-col items-center justify-center relative md:ml-[100px] lg:ml-[166px] mt-[100px] opacity-0 shrink-0"
         id="image-container"
       >
         <PiHandWavingFill
-          className="text-mainPink text-[70px] md:text-[50px] lg:text-[80px] absolute m-auto left-0 right-12 bottom-16 md:bottom-14 lg:bottom-16 top-0"
+          className="text-mainPink text-[70px] md:text-[80px] absolute m-auto left-0 right-12 bottom-16 md:bottom-14 lg:bottom-16 top-0"
           id="waving"
         />
         <Image
-          src={width > 390 ? desktopHero : hero}
+          src={hero}
           alt="A vector image of a computer monitor"
+          className="object-cover"
           priority
         />
       </div>
       <div
-        className="flex flex-col mt-[28px] md:mt-[100px] opacity-0"
+        className="flex flex-col mt-[28px] md:mt-[100px] opacity-0 shrink"
         id="content-container"
       >
         <h2 className="font-bold text-mainPink text-[28px] lg:text-[40px] leading-none ">
