@@ -10,7 +10,7 @@ export default function About() {
         alt="A collection of vector images"
         className="w-1/2"
       />
-      <div className="mt-8 flex flex-col items-center">
+      <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col items-start px-[26px]">
           <h2 className="heading text-mainPink text-[48px] uppercase">Tech</h2>
           <TechContainer />
